@@ -1,0 +1,9 @@
+import numpy as np
+
+arr2d = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+
+# Middle column
+print(arr2d[:, 1])      # [2 5 8]
+
+# Last two elements of the last column
+print(arr2d[1:, 2])     # [6 9]
